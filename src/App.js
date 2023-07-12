@@ -1,23 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
+  const ingredients = [
+    {
+      name: "envelopes unflavored gelatine",
+      quantity: "2"
+    },
+    {
+      name: "cup sugar",
+      quantity: "1/2"
+    },
+    {
+      name: "teaspoon salt",
+      quantity: "1"
+    },
+    {
+      name: "can (12 oz) apple juice",
+      quantity: "1"
+    },
+    {
+      name: " cup lemon juice",
+      quantity: "1/2"
+    },
+    {
+      name: "tablespoons vinegar",
+      quantity: "2"
+    },
+    {
+      name: "cup shredded carrot",
+      quantity: "1"
+    },
+    {
+      name: "cup sliced celery",
+      quantity: "1"
+    },
+    {
+      name: "cup finely shredded cabbage",
+      quantity: "1"
+    },
+    {
+      name: "cup chopped green pepper",
+      quantity: "1/2"
+    },
+    {
+      name: "can (4 oz) chopped pimiento",
+      quantity: "1"
+    }
+  ]
+  console.log(ingredients)
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        Grandma's recipes
     </div>
   );
 }
